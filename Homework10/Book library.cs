@@ -31,6 +31,7 @@ public class bookLibrary
     public string code_Book;
     public Statuses status_Book;
     public Conditions book_Condition;
+    //try to follow to OOP principles - here the incapsulation principle is violated, use private for such fields and use properties as public variable
 
     public string getBookCode()
     {
@@ -61,3 +62,4 @@ public class bookLibrary
         return book_Condition;
     }
 }
+//checked
